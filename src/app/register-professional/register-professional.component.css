@@ -1,0 +1,33 @@
+nav {
+    max-width: 350px;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color: rgb(85, 85, 85);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+nav ul li a:hover {
+    background-color: #e0e0e0;
+    color: var(--cor-principal);
+}
+
+nav ul li a span { position: relative; top: 5px;}
